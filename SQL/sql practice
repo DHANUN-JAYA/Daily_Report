@@ -1,0 +1,23 @@
+select * from city
+where population>100000 and countrycode='USA'
+
+
+select distinct city from station
+where id%2=0
+
+
+select city,state from station
+
+select name from city where countrycode='JPN'
+
+select * from city
+where countrycode='JPN'
+
+select * from city
+where id=1661
+
+select * from city
+
+select * from city
+where population>100000 and countrycode='USA'
+
